@@ -1,1 +1,7 @@
-trie autocorrect implemented
+### Trie Autocorrect Implemented
+
+This project implements a Trie-based autocorrect system built for fast, reliable, and scalable word suggestion. The solution uses a prefix tree to store vocabulary in a compact, search-friendly structure, allowing near-instant lookups even with large dictionaries. The aim is to provide a clean, production-ready implementation that showcases both strong algorithmic fundamentals and practical software engineering skills.
+
+The core engine supports efficient insertion, lookup, and suggestion generation through controlled traversal of the Trie. By identifying all valid continuations of a prefix, the system can generate accurate and meaningful suggestions for search fields, typing assistants, note-taking applications, or any interface where quick text predictions improve the user experience. Its lightweight node design ensures low memory usage, and the fully offline workflow keeps latency minimal.
+
+The project is written in Java with a modular architecture. The Trie structure, suggestion logic, and integration layer are clearly separated, making the code easy to read, maintain, and extend. This separation allows straightforward expansion into ranked suggestions, edit-distance corrections, frequency scoring, or multilingual support. The implementation demonstrates good engineering practices: predictable time complexity, clean abstractions, and a design suitable for both mobile and backend applications.
